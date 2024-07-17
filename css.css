@@ -98,3 +98,41 @@ nav ul li a {
     color:#643E2D;
     margin-bottom:10x;
 }
+
+/*Products*/
+
+#products {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+}
+
+#products img {
+width: 350px;
+height:250px;
+object-fit: cover;
+border-radius: 100%;
+margin-bottom: 15px;
+
+}
+
+#products h3 {
+
+    font-family: 'Playwrite NG Modern', cursive;
+    font-size: 18px;
+    margin: 5%;
+    text-align: center;
+}
+
+#products p{
+ 
+    color:#643E2D;
+    text-align: center;
+    padding: 10px;
+    font-family: 'Playwrite NG Modern';
+    font-size: smaller;
+    
+
+
+}
