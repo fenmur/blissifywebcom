@@ -3,3 +3,16 @@ body {
     padding: 0;
     background-color: #3C5F3F
 }
+
+/*Styling the Headers*/
+
+header {
+    background-color: #B2B2B2;
+    color: #643E2D;
+    padding: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Amatic SC", cursive;
+    flex-direction: row;
+}
