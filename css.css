@@ -1,0 +1,28 @@
+/*Body*/
+
+body {
+
+    background-color: #3C5F3F;
+    color: #643E2D; 
+    line-height: 1.6;
+}
+
+/*Header styles*/
+
+h1{
+
+    background-color: #C6C4C2;
+    color:#643E2D;
+    text-align: center;
+    padding: 20px;
+    font-family: 'Amatic SC';
+}
+
+h2{
+
+    background-color: #C6C4C2;
+    color:#643E2D;
+    text-align:left;
+    padding: 20px;
+    font-family: 'Amatic SC';
+}
