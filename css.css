@@ -2,7 +2,7 @@
 
 body {
 
-    background-color: #3C5F3F;
+    background-color: #B2B2B2; /*Changed from dark-green for better view*/
     color: #643E2D; 
     line-height: 1.6;
 }
@@ -11,7 +11,6 @@ body {
 
 h1{
 
-    background-color: #C6C4C2;
     color:#643E2D;
     text-align: center;
     padding: 20px;
@@ -26,3 +25,39 @@ h2{
     padding: 20px;
     font-family: 'Amatic SC';
 }
+
+/*Navigation Styles*/
+
+nav{
+    background-color: #756E65;
+    padding: 3px;
+    text-align: center;
+}
+
+nav ul {
+    padding: 0%;
+    margin: 2%;
+   display: flex;
+   justify-content: center;
+}
+
+nav ul li {
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #B2B2B2;
+    text-decoration: none;  
+    display: block;
+    font-family: 'Amatic SC', cursive;
+}
+
+/*Quote*/
+
+#about blockquote {
+    font-family: "Playwrite IS", cursive;
+    color: #643E2D;
+    padding: 20px;
+    margin: 20px 0; 
+    font-size: small;
+    }
