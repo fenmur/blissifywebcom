@@ -24,9 +24,11 @@ h2{
 
     background-color: #C6C4C2;
     color:#643E2D;
-    text-align:left;
-    padding: 20px;
+    align-items: center;
+    padding: 5%;
     font-family: 'Amatic SC';
+    border-radius: 10%;
+    justify-content: center;
 }
 
 /*Navigation Styles*/
@@ -74,6 +76,8 @@ nav ul li a {
     font-size: 17px;
     color: #643E2D;
     margin-top: 30px;
+    text-align: center;
+   
 }
 
 
@@ -125,14 +129,42 @@ margin-bottom: 15px;
     text-align: center;
 }
 
+#products h2 {
+    text-align: center;
+}
 #products p{
  
-    color:#643E2D;
+    color:#553526;
     text-align: center;
     padding: 10px;
     font-family: 'Playwrite NG Modern';
     font-size: smaller;
-    
-
-
 }
+
+/*The Tables of Blends*/
+
+caption {
+    font-size: 15px;
+    padding: 20px;
+    text-align: center; 
+    font-family: 'Playwrite NG Modern';
+}
+
+table {
+border-collapse: collapse;
+}
+
+th, td {
+    text-align: left;
+    padding: 10px;
+}
+
+
+tr:nth-child(even) {
+    background-color:#C6C4C2
+}
+
+th {
+    background-color: #3C5F3F;
+    color: #C6C4C2 
+    }
