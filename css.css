@@ -14,7 +14,7 @@ body {
 
 h1{
 
-    color:#643E2D;
+    color:#3C5F3F;
     text-align: center;
     padding: 20px;
     font-family: 'Amatic SC';
@@ -25,9 +25,9 @@ h2{
     background-color: #C6C4C2;
     color:#643E2D;
     align-items: center;
-    padding: 5%;
+    padding: 20px;
     font-family: 'Amatic SC';
-    border-radius: 10%;
+    border-radius: 50%;
     justify-content: center;
 }
 
@@ -54,7 +54,7 @@ nav ul li {
 nav ul li a {
     color: #B2B2B2;
     text-decoration: none;  
-    display: block;
+    display: flex;
     font-family: 'Amatic SC', cursive;
     font-size: large
  }
@@ -73,9 +73,9 @@ nav ul li a {
 
 #about h2 {
     font-family: 'Playwrite NG Modern', cursive;
-    font-size: 17px;
-    color: #643E2D;
-    margin-top: 30px;
+    font-size: 20px;
+    color: #3C5F3F;
+    margin-top: 10px;
     text-align: center;
    
 }
@@ -86,6 +86,7 @@ nav ul li a {
     font-family: 'Playwrite NG Modern', cursive;
     font-size: 12px;
     line-height: 1.6;
+    text-align: center;
 }
 
 /*List*/
@@ -106,40 +107,30 @@ nav ul li a {
 /*Products*/
 
 #products {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
     text-align: center;
-}
+    padding: 20px;
 
-#products img {
-width: 350px;
-height:250px;
-object-fit: cover;
-border-radius: 100%;
-margin-bottom: 15px;
-
-}
-
-#products h3 {
-
-    font-family: 'Playwrite NG Modern', cursive;
-    font-size: 18px;
-    margin: 5%;
-    text-align: center;
 }
 
 #products h2 {
-    text-align: center;
+
+margin-bottom: 10px;
+font-size: 30px;
+color:#13532b;
+display: flex;
+justify-content: center;
+flex-wrap: wrap;
+gap: 20px;
 }
-#products p{
- 
-    color:#553526;
-    text-align: center;
-    padding: 10px;
-    font-family: 'Playwrite NG Modern';
-    font-size: smaller;
+
+#products img {
+
+border-radius: 100px;
+border: 5px solid #3C5F3F;
+width: 300px;
+height: 200px;
 }
+
 
 /*The Tables of Blends*/
 
@@ -151,11 +142,14 @@ caption {
 }
 
 table {
-border-collapse: collapse;
+    
+    border-collapse: collapse;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 th, td {
-    text-align: left;
+    text-align: center;
     padding: 10px;
 }
 
@@ -168,3 +162,52 @@ th {
     background-color: #3C5F3F;
     color: #C6C4C2 
     }
+
+/*Articles Section*/
+
+#articles {
+
+    text-align: center;
+    margin-top: 40px;
+}
+
+#articles h2{
+margin-bottom: 20px;
+
+}
+
+#articles p {
+
+margin-bottom: 20px;
+}
+
+#articles ol {
+    list-style-type: none;
+    padding: 0;
+}
+
+#articles ol li {
+    margin-bottom: 10px; 
+    font-size: 1.1em; 
+    font-family: 'Playwrite NG Modern';
+    font-size: smaller;
+}
+
+#articles ol li a{
+    color: #13532b;
+    text-decoration: none;  
+    display: block;
+    font-family: 'Playwrite NG Modern', cursive;
+    font-size: large
+}
+
+#video {
+    margin-top: 50%;
+
+}
+
+#video h3{
+    margin-bottom: 10px;
+    font-size: 1.2em;
+    color: #37743c;
+}
