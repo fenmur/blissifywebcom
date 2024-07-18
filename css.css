@@ -115,12 +115,21 @@ nav ul li a {
 #products h2 {
 
 margin-bottom: 10px;
-font-size: 30px;
+font-size: 20px;
+font-family: 'Playwrite NG Modern', cursive;
 color:#13532b;
 display: flex;
 justify-content: center;
 flex-wrap: wrap;
 gap: 20px;
+}
+
+#products p {
+    color: #643E2D;
+    font-family: 'Playwrite NG Modern', cursive;
+    font-size: 12px;
+    line-height: 1.6;
+    text-align: center;
 }
 
 #products img {
@@ -201,13 +210,38 @@ margin-bottom: 20px;
     font-size: large
 }
 
-#video {
-    margin-top: 50%;
+/*Video*/
 
+#video {
+
+    margin: 40px auto;
+    max-width: 100%;
+    text-align: center;
 }
 
+
 #video h3{
+
     margin-bottom: 10px;
     font-size: 1.2em;
     color: #37743c;
+}
+
+#video p{
+
+    margin-bottom: 20px;
+    font-size: 12px;
+    color:#643E2D;
+    text-align: center;
+}
+
+
+
+#video iframe {
+    
+    border-radius: 10px;
+    border: 5px solid #3C5F3F;
+    width: 300px;
+    height: 200px;
+    max-width: 100%;
 }
