@@ -18,6 +18,15 @@ p {
 
 /*Hero Banner*/
 
+#hero-logo {
+
+    display: block;
+    margin: 10px auto;
+    height: 100px; 
+    width: auto;
+    z-index: 10;
+}
+
 #hero {
 
     background-image: linear-gradient(rgba(62, 48, 10, 0.6), rgba(40, 33, 2, 0.6)), url('assets/5.jpg');
@@ -28,6 +37,9 @@ p {
     align-items: center;
     justify-content: center;
     text-align: center;
+    position:relative;
+    overflow:hidden;
+
 }
 
 #hero h1 {
@@ -125,27 +137,28 @@ nav ul li a {
 
 /*Quote*/
 
-#about blockquote h2 {
-    font-family: "Playwrite IS", cursive;
-    color: #643E2D;
-    padding: 20px;
-    margin: 20px 0; 
-    font-size: small;
-    text-align: center;
-    align-items: center;
-
-    
-}
-
 #about blockquote p {
+    
     font-family: "Playwrite IS", cursive;
     color: #643E2D;
     padding: 20px;
-    margin: 20px 0; 
+    margin: 20px auto;
     font-size: larger;
     align-items: center;
     text-align: center;
+    
+
 }
+
+#about blockquote footer {
+    text-align: center;
+    font-family: "Playwrite IS", cursive;
+    color: #643E2D;
+    margin: 20px 0; 
+    font-size: small;
+    
+}
+
 
 
 #about h2 {
@@ -214,6 +227,7 @@ gap: 20px;
     gap: 20px;
     }
 
+    
 #products p {
     color: #643E2D;
     font-family: 'Playwrite NG Modern', cursive;
@@ -403,13 +417,14 @@ margin-bottom: 20px;
 footer {
 
     background-color:#C6C4C2;
-    padding: 40px;
+    padding: 20px;
     max-width: 400px;
     border-radius: 10px;
-    text-align: center;
+    text-align: right;
     position: relative;
     bottom: 0%;
     position: relative;
+    background: none;
 }
 
 
