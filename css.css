@@ -20,7 +20,7 @@ p {
 
 #hero {
 
-    background-image: linear-gradient(rgba(12, 48, 28, 0.6), rgba(40, 33, 2, 0.6)), url('assets/5.jpg');
+    background-image: linear-gradient(rgba(62, 48, 10, 0.6), rgba(40, 33, 2, 0.6)), url('assets/5.jpg');
     height: 600px;
     background-position: center;
     background-size: cover;
@@ -125,7 +125,7 @@ nav ul li a {
 
 /*Quote*/
 
-#about blockquote {
+#about blockquote h2 {
     font-family: "Playwrite IS", cursive;
     color: #643E2D;
     padding: 20px;
@@ -133,6 +133,8 @@ nav ul li a {
     font-size: small;
     text-align: center;
     align-items: center;
+
+    
 }
 
 #about blockquote p {
@@ -397,4 +399,17 @@ margin-bottom: 20px;
 }
 
 /*Footer*/
+
+footer {
+
+    background-color:#C6C4C2;
+    padding: 40px;
+    max-width: 400px;
+    border-radius: 10px;
+    text-align: center;
+    position: relative;
+    bottom: 0%;
+    position: relative;
+}
+
 
